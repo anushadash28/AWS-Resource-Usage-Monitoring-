@@ -1,0 +1,5 @@
+EC2 Instances Running: 1
+Total S3 Buckets: 0
+Total Lambda Functions: 0
+Total IAM Users: 0
+✅ All resource usage is within safe limits.
