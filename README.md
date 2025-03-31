@@ -49,7 +49,7 @@ chmod +x resource-monitor.sh
 <h3>Automate Execution </h3>
 Run the script daily at 10 am using Cron job 
 
-1. Open the cromtab editor
+1. Open the crontab editor
 
    ```
    crontab -e
