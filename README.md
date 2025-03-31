@@ -34,16 +34,16 @@ Wrote the script resource-monitor.sh file in vi editor .
 
 1. Made the script executable 
 
-``` 
-chmod +x resource-monitor.sh
-```
+ ``` 
+ chmod +x resource-monitor.sh
+ ```
 
 
 2. Run the script manually
 
-```
-./resource-monitor.sh
-```
+ ```
+ ./resource-monitor.sh
+ ```
 
 
 <h3>Automate Execution </h3>
