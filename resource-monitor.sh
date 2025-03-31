@@ -42,7 +42,7 @@ if [[ $LAMBDA_COUNT -gt $LAMBDA_THRESHOLD ]]; then
     ALERTS+="⚠️ High Lambda Usage: $LAMBDA_COUNT functions detected!\n"
 fi
 
-# Send alert email (requires AWS SNS or a mail service)
+# Send alert email (requires mail service)
 if [[ -n "$ALERTS" ]]; then
     echo -e "$ALERTS" | mail -s "AWS Resource Usage Alert 🚨" your-email@example.com
     echo -e "\nAlerts Sent:\n$ALERTS" | tee -a $LOG_FILE
