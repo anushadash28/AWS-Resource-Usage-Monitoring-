@@ -83,5 +83,12 @@ All execution logs are saved in the log file
 ```
 aws_resource_usage.log
 ```
+
+
+<h3>Alerts </h3>
+<ul>
+  <li>Alerts are sent via email when resource usage exceeds defined thresholds.</li>
+  <li>We can update the email address as our actual email address .</li>
+</ul>
   
 
