@@ -21,7 +21,7 @@ This script monitors AWS resources, including EC2 instances, S3 buckets, Lambda 
    aws configure
    ```
 
-2. mailutils (for email alerts ) should be installed
+3. mailutils (for email alerts ) should be installed
    ```
    sudo apt install mailutils -y
    ```
@@ -33,14 +33,12 @@ Wrote the script resource-monitor.sh file in vi editor .
 <h3>Executing the Script </h3>
 
 1. Made the script executable 
-
  ``` 
  chmod +x resource-monitor.sh
  ```
 
 
 2. Run the script manually
-
  ```
  ./resource-monitor.sh
  ```
