@@ -1,3 +1,5 @@
+#Info in the log file (aws_resource_usage.log)
+
 EC2 Instances Running: 1
 Total S3 Buckets: 0
 Total Lambda Functions: 0
