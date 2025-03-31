@@ -18,6 +18,6 @@ This script monitors AWS resources, including EC2 instances, S3 buckets, Lambda 
 
 1. AWS CLI must be installed and configured 
 
-``` aws configure ```
+  ``` aws configure ```
   
 
