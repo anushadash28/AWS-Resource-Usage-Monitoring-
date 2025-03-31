@@ -12,3 +12,13 @@ This script monitors AWS resources, including EC2 instances, S3 buckets, Lambda 
     <li>Sends email alerts when thresholds are exceeded.</li>
     <li>Can be scheduled to run automatically using a cron job.</li>
   </ul>
+
+
+<h3>Prerequisites</h3>
+1. AWS CLI must be installed and configured 
+
+AWS CLI  Installation 
+1.
+```
+sudo apt update
+```
