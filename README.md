@@ -59,7 +59,7 @@ Run the script daily at 10 am using Cron job
 
    ```
    0 10 * * * /bin/bash /resourse-monitor.sh
-```
+   ```
 
 
   
