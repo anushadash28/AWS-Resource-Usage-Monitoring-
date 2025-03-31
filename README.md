@@ -45,5 +45,22 @@ chmod +x resource-monitor.sh
 ./resource-monitor.sh
 ```
 
+
+<h3>Automate Execution </h3>
+Run the script daily at 10 am using Cron job 
+
+1. Open the cromtab editor
+
+   ```
+   crontab -e
+   ```
+
+2. Add the following line
+
+   ```
+   0 10 * * * /bin/bash /resourse-monitor.sh
+```
+
+
   
 
