@@ -20,5 +20,11 @@ This script monitors AWS resources, including EC2 instances, S3 buckets, Lambda 
    ```
    aws configure
    ```
+
+2. mailutils (for email alerts ) should be installed
+   ```
+   sudo apt install mailutils -y
+   ```
+   
   
 
