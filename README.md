@@ -16,12 +16,8 @@ This script monitors AWS resources, including EC2 instances, S3 buckets, Lambda 
 
 <h3>Prerequisites</h3>
 1. AWS CLI must be installed and configured 
-<br>
-AWS CLI  Installation 
-<ol>
-  <li>
-    ```
-     sudo apt update
-     ```
-  </li>
+```
+aws configure
+```
+  
 
